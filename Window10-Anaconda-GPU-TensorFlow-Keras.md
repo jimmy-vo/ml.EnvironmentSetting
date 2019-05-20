@@ -53,5 +53,7 @@ Follow this link: select Window and download Anaconda installer for Window
 When you get to the Advance Options, you may want to select all options to make things easier. 
 Otherwise, you may need to google around if you don't have administration privileges.
 
-![anaconda](../images/anaconda.png)
+<div style='float: center'>
+  <img style='width: 600px' src="../images/anaconda.png"></img>
+</div>
 
