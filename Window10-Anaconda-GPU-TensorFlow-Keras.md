@@ -54,6 +54,6 @@ When you get to the Advance Options, you may want to select all options to make 
 Otherwise, you may need to google around if you don't have administration privileges.
 
 <div style='float: center'>
-  <img style='width: 600px' src="../images/anaconda.png"></img>
+  <img style='width: 600px' src="../../images/anaconda.png"></img>
 </div>
 
