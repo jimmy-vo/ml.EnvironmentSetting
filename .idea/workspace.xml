@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df366bde-e9b6-41d4-a1db-4460cc840291" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Duy_Vo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Duy_Vo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Window10-GPU-Anaconda-Jupyter.md" beforeDir="false" afterPath="$PROJECT_DIR$/Window10-GPU-Anaconda-Jupyter.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +59,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="68">
-                <caret line="4" column="105" lean-forward="true" selection-start-line="4" selection-start-column="105" selection-end-line="4" selection-end-column="105" />
+                <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
               </first_editor>
               <second_editor />
             </state>
@@ -190,7 +188,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="68">
-            <caret line="4" column="105" lean-forward="true" selection-start-line="4" selection-start-column="105" selection-end-line="4" selection-end-column="105" />
+            <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
           </first_editor>
           <second_editor />
         </state>
