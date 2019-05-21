@@ -74,19 +74,19 @@ Otherwise, you may need to google around if you don't have administration privil
 + After you have installed Anaconda, you should be able to launch Anaconda Navigator
 
 + In Environment Tab, you can manage your own environment:
-    + Create, clone, remove a seleted environment
-    + Apply different Python packages on a seleted environment
+    + Create, clone, remove a selected environment
+    + Apply different Python packages on a selected environment
 
 <div style='float: center'>
   <img style='width: 600px' src="../../blob/master/images/conda_env.png"></img>
 </div>
 
-###### For example, you can install 2 different python versions on two seperate environment depending on the need of the projects
-+ For now, let's create your own environment (Fingers) and move to the next step
+###### For example, you can install 2 different python versions on two separate environment depending on the need of the projects
++ For now, let's create your own environment `(Fingers)` and move to the next step
 
 
 ### 5. Install packages on an Anaconda environment
-+ Lauch Anaconda Prompt as below
++ Launch Anaconda Prompt as below
 
 <div style='float: center'>
   <img style='width: 600px' src="../../blob/master/images/conda_pkg.png"></img>
@@ -113,7 +113,7 @@ Make sure that it is applied to the selected environment as below:
 </div>
 
 
-### 6. Install and lauch Jupyter Notebook
+### 6. Install and launch Jupyter Notebook
 + In Anaconda Navigator, install the latest version of Jupyter Notebook
 
 + After it finish, click on launch, it will add a new tab on your browser. 
@@ -127,6 +127,7 @@ You can now play around with the Jupyter on the default directory
 ### 7. Verify your environment
 + Create a new jupyter notebook
 + In the first cell, insert:
+
 
 
     import os
@@ -151,6 +152,8 @@ You can now play around with the Jupyter on the default directory
         config.gpu_options.allow_growth = True
         sess = tf.Session(config=config)
         print('GPU is ready for tensorflow')
+        
+        
         
 + Run that cell, you should be able to see `GPU is ready for tensorflow` without any error. 
 But if you see error, google!!! I am sure that you will figure it out!
