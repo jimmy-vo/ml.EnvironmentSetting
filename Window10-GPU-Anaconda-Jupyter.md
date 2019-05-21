@@ -128,8 +128,7 @@ You can now play around with the Jupyter on the default directory
 + Create a new jupyter notebook
 + In the first cell, insert:
 
-
-
+```
     import os
     import sys    
     import time
@@ -151,9 +150,8 @@ You can now play around with the Jupyter on the default directory
         config = tf.ConfigProto()
         config.gpu_options.allow_growth = True
         sess = tf.Session(config=config)
-        print('GPU is ready for tensorflow')
-        
-        
+        print('GPU is ready for tensorflow') 
+```  
         
 + Run that cell, you should be able to see `GPU is ready for tensorflow` without any error. 
 But if you see error, google!!! I am sure that you will figure it out!
