@@ -1,2 +1,7 @@
 # ml.EnvironmentSetting
-This is a guide to set up Data Science workspace including difference stuff like Anaconda, TensorFlow, Keras, GPU on Linux and Window machine
+This is a guide to setup Data Science workspace Keras, GPU on Linux and Window machine
+
+## For Window:
++ Setup CUDA, cuDNN, Anaconda, Jupyter Notebook [Tutorial](/blob/master/Window10-GPU-Anaconda-Jupyter.md)
+
+## For Ubuntu:

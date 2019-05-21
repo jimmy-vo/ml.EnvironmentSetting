@@ -1,20 +1,20 @@
 # Deep Learning Environment Set Up
 
 ## Target
-Prepare the environment to train a Keras model on Jupyter Notebook with NVIDIA GPU on WIndow machine
+Prepare the environment to train a Keras model on Jupyter Notebook with NVIDIA GPU on Window machine
 
 ## Before we go
 
-Below is just some helpful explanation for beginers, you can skip it to fast-forward
+Below is just some helpful explanation for beginners, you can skip it to fast-forward
 
 ##### Why do we need Anaconda
-Basicly you can install all the Python packages to do the training without anaconda. 
+Basically you can install all the Python packages to do the training without anaconda. 
 However, Anaconda is a useful tools to gather all the species for you.
 It also allows the ability of isolating the environment of different project so that they don't mess up each other
 
 ##### What are CUDA and cuDNN?
 I don't really know what they are. And I think we don't need to. 
-CUDA on Window is like a NDIVIA driver you need to install to allow TensorFlow to control the GPU.
+CUDA on Window is like a NVIDIA driver you need to install to allow TensorFlow to control the GPU.
 The cuDNN on the other hand contains some library files that you need to put into CUDA 
 to make sure that they can talk to each other.
 So if you are beginner like me, just install these to have your Keras model working
@@ -23,8 +23,8 @@ So if you are beginner like me, just install these to have your Keras model work
 It's is a web-based visualizing tool that allows you to execute Python script
 
 ##### How do they works together?
-Kerase sits on top of Anaconda environment where you can install python dependencies like TensorFlow.
-Jupypter also sits on top of Anaconda environment. 
+Keras sits on top of Anaconda environment where you can install python dependencies like TensorFlow.
+Jupyter also sits on top of Anaconda environment. 
 CUDA and cuDNN are the low-level stuff on top of Window (again, you don't need to worry to much a bout those)
 
 ##### My machine configuration?
@@ -32,10 +32,10 @@ CUDA and cuDNN are the low-level stuff on top of Window (again, you don't need t
 + GPU: GTX 960M 
 + RAM: 16GB
 + SSD: 500GB
-+ OS: WIndow 10 Home
++ OS: Window 10 Home
 
 
-## Now, let Do It Fast!
+## Now, Let's Do It Fast!
 ### 1. Install CUDA
 + Follow this NVIDIA official link, download and install it with default options:
 
@@ -129,28 +129,28 @@ You can now play around with the Jupyter on the default directory
 + In the first cell, insert:
 
 ```
-    import os
-    import sys    
-    import time
-    from keras.preprocessing.image import ImageDataGenerator
-    import tensorflow as tf
-    import numpy as np
-    from sklearn.metrics import confusion_matrix
-    import seaborn as sn
-    from auto_train import core_train 
-    %matplotlib inline
-    import matplotlib
-    import matplotlib.pyplot as plt
-    from keras.layers import Conv2D, MaxPooling2D, Dropout, Dense, Flatten
-    from keras.callbacks import EarlyStopping, ModelCheckpoint, TensorBoard
-    from keras.models import Sequential
-    import tensorflow as tf
-    
-    if tf.test.is_gpu_available():
-        config = tf.ConfigProto()
-        config.gpu_options.allow_growth = True
-        sess = tf.Session(config=config)
-        print('GPU is ready for tensorflow') 
+import os
+import sys    
+import time
+from keras.preprocessing.image import ImageDataGenerator
+import tensorflow as tf
+import numpy as np
+from sklearn.metrics import confusion_matrix
+import seaborn as sn
+from auto_train import core_train 
+%matplotlib inline
+import matplotlib
+import matplotlib.pyplot as plt
+from keras.layers import Conv2D, MaxPooling2D, Dropout, Dense, Flatten
+from keras.callbacks import EarlyStopping, ModelCheckpoint, TensorBoard
+from keras.models import Sequential
+import tensorflow as tf
+
+if tf.test.is_gpu_available():
+    config = tf.ConfigProto()
+    config.gpu_options.allow_growth = True
+    sess = tf.Session(config=config)
+    print('GPU is ready for tensorflow') 
 ```  
         
 + Run that cell, you should be able to see `GPU is ready for tensorflow` without any error. 
