@@ -1,5 +1,5 @@
 # ml.Topic
-This is a guide to setup Data Science workspace Keras, GPU on Linux and Window machine.
+This is a guide to setup Data Science workspace Keras, GPU on Linux
 
 ## Target
 + Have a working environment with Container - Docker or Anaconda
@@ -8,22 +8,9 @@ This is a guide to setup Data Science workspace Keras, GPU on Linux and Window m
 
 ## Setup Environment
 Below is two option
-+ Window Environment ([Link](Window10-GPU-Anaconda-Jupyter.md)). It includes:
++ Follow [this tutorial](https://medium.com/@naomi.fridman/install-conda-tensorflow-gpu-and-keras-on-ubuntu-18-04-1b403e740e25?fbclid=IwAR0PrxFtaYUq90jC2ovG1xuTlckl4TT2HkCpa4WOigO1kXIEZDgQ5wYaM_8) to setup below : 
     + Install and setup CUDA and cuDNN
     + Install Anaconda and manage environments
     + Install Jupyter Notebook and verify environment
-+ Ubuntu Environment:
-    + Install and setup CUDA and cuDNN
-    + Setup environment:
-        + Docker (Recommend)
-        + Install Anaconda (optional)     
-    + Install Jupyter Notebook and verify environment
-    + Setup Back-end Automation scripts
+Project Setup:
     
-
-## Convolution Neural Network (CNN)
-+ How I learned CNN and things you need to know (Update later)
-+ Finger Example (Update later)
-
-## Auto generate CNNs and fine tune generated models with TensorBoard
-+ Finger Example (Update later)
