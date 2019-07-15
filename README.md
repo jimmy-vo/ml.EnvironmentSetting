@@ -13,6 +13,7 @@ This is a guide to setup Data Science workspace Keras, GPU on Linux
     + Install Jupyter Notebook and verify environment
 + Follow [this tutorial](python_packages.md) to install additional ML-DS-CV packages:    
 + Project Setup:
-    + ....
+    + Follow [this tutorial](#) to setup ML project with bash script
+    + Follow [this tutorial](#) to setup Ubuntu Launcher for ML project    
 + Follow [this tutorial](conky_setup.md) to set up Conky for mornitoring resources: 
     
