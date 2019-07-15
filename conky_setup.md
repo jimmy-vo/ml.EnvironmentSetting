@@ -1,6 +1,6 @@
 # **Setting up Conky on Ubuntu** 
 
-## **Goad**
+## **Goal**
 
 Setup a monitor tool to keep track CPU, RAM, SWAP, GPU (Nvidia) temperatures and usage during the training
 
