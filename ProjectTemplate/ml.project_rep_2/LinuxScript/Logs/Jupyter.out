@@ -1,0 +1,141 @@
+[I 21:19:49.241 NotebookApp] Serving notebooks from local directory: /data/Bitbucket/ml.facerecognition.v002
+[I 21:19:49.241 NotebookApp] The Jupyter Notebook is running at:
+[I 21:19:49.241 NotebookApp] http://127.0.1.1:8888/
+[I 21:19:49.241 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:19:53.779 NotebookApp] 404 GET /api/kernels/eae3c55f-7825-4fc4-994e-91768868c034/channels?session_id=23ceca7198bf4671b6acc7ac1b37c5a3 (127.0.0.1): Kernel does not exist: eae3c55f-7825-4fc4-994e-91768868c034
+[W 21:19:53.789 NotebookApp] 404 GET /api/kernels/eae3c55f-7825-4fc4-994e-91768868c034/channels?session_id=23ceca7198bf4671b6acc7ac1b37c5a3 (127.0.0.1) 22.23ms referer=None
+[I 21:19:54.485 NotebookApp] Kernel started: 5561c8e2-4460-4929-abbc-bc98b1505870
+[I 21:19:55.025 NotebookApp] Adapting to protocol v5.1 for kernel 5561c8e2-4460-4929-abbc-bc98b1505870
+[I 21:19:57.782 NotebookApp] Starting buffering for 5561c8e2-4460-4929-abbc-bc98b1505870:ad9d53a600a8419081850f7d1c8915d5
+[I 21:19:58.103 NotebookApp] Kernel restarted: 5561c8e2-4460-4929-abbc-bc98b1505870
+[I 21:19:58.576 NotebookApp] Adapting to protocol v5.1 for kernel 5561c8e2-4460-4929-abbc-bc98b1505870
+[I 21:19:58.577 NotebookApp] Restoring connection for 5561c8e2-4460-4929-abbc-bc98b1505870:ad9d53a600a8419081850f7d1c8915d5
+[I 21:19:58.578 NotebookApp] Replaying 6 buffered messages
+2019-07-14 21:20:00.196221: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-07-14 21:20:00.230350: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:897] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-07-14 21:20:00.230831: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: GeForce GTX 960M major: 5 minor: 0 memoryClockRate(GHz): 1.176
+pciBusID: 0000:02:00.0
+totalMemory: 3.95GiB freeMemory: 3.63GiB
+2019-07-14 21:20:00.231099: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2019-07-14 21:20:00.903874: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-14 21:20:00.904126: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2019-07-14 21:20:00.904234: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2019-07-14 21:20:00.904392: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 3355 MB memory) -> physical GPU (device: 0, name: GeForce GTX 960M, pci bus id: 0000:02:00.0, compute capability: 5.0)
+2019-07-14 21:20:00.955122: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2019-07-14 21:20:00.955250: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-14 21:20:00.955326: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2019-07-14 21:20:00.955413: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2019-07-14 21:20:00.955545: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3355 MB memory) -> physical GPU (device: 0, name: GeForce GTX 960M, pci bus id: 0000:02:00.0, compute capability: 5.0)
+[I 21:20:11.943 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:20:16.937 NotebookApp] Starting buffering for 5561c8e2-4460-4929-abbc-bc98b1505870:ad9d53a600a8419081850f7d1c8915d5
+[I 21:20:17.855 NotebookApp] Kernel restarted: 5561c8e2-4460-4929-abbc-bc98b1505870
+[I 21:20:18.359 NotebookApp] Adapting to protocol v5.1 for kernel 5561c8e2-4460-4929-abbc-bc98b1505870
+[I 21:20:18.361 NotebookApp] Restoring connection for 5561c8e2-4460-4929-abbc-bc98b1505870:ad9d53a600a8419081850f7d1c8915d5
+[I 21:20:18.361 NotebookApp] Replaying 6 buffered messages
+2019-07-14 21:20:20.006212: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-07-14 21:20:20.047193: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:897] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-07-14 21:20:20.047597: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: GeForce GTX 960M major: 5 minor: 0 memoryClockRate(GHz): 1.176
+pciBusID: 0000:02:00.0
+totalMemory: 3.95GiB freeMemory: 3.63GiB
+2019-07-14 21:20:20.047682: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2019-07-14 21:20:20.805024: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-14 21:20:20.805169: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2019-07-14 21:20:20.805211: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2019-07-14 21:20:20.805392: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 3355 MB memory) -> physical GPU (device: 0, name: GeForce GTX 960M, pci bus id: 0000:02:00.0, compute capability: 5.0)
+2019-07-14 21:20:20.858560: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2019-07-14 21:20:20.858682: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-14 21:20:20.858753: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2019-07-14 21:20:20.858830: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2019-07-14 21:20:20.858959: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3355 MB memory) -> physical GPU (device: 0, name: GeForce GTX 960M, pci bus id: 0000:02:00.0, compute capability: 5.0)
+2019-07-14 21:20:22.527937: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2019-07-14 21:20:22.528009: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-14 21:20:22.528038: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2019-07-14 21:20:22.528065: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2019-07-14 21:20:22.528160: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3355 MB memory) -> physical GPU (device: 0, name: GeForce GTX 960M, pci bus id: 0000:02:00.0, compute capability: 5.0)
+[I 21:21:55.432 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:23:55.421 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:25:55.438 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:27:55.426 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:29:55.431 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:31:55.458 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:33:55.424 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:35:55.431 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:37:55.443 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:39:55.451 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:41:55.420 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:43:55.449 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:45:55.455 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:47:55.435 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:49:55.419 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:51:55.418 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:53:55.441 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:55:55.421 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:57:55.424 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 21:59:55.448 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:01:55.421 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:03:55.447 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:05:55.423 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:07:55.426 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:09:55.421 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:11:55.439 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:13:55.429 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:15:55.423 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:17:55.417 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:19:55.422 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:21:55.418 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:23:55.422 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:25:55.423 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:27:55.418 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:29:55.434 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:31:55.418 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:33:55.427 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:35:55.420 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:37:55.422 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:39:55.418 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:41:55.420 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:43:55.420 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:45:55.420 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:47:55.423 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:49:55.422 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:51:55.424 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:53:55.418 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:55:55.422 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:57:55.428 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 22:59:55.441 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:01:55.423 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:03:55.418 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:05:55.419 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:07:55.419 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:09:55.421 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:11:55.432 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:13:55.418 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:15:55.417 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:17:55.419 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:19:55.433 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:21:55.418 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:23:55.419 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:25:55.435 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:27:55.438 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:29:55.434 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:31:55.418 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:33:55.429 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:35:55.418 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:37:55.436 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:39:55.420 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:41:55.423 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:43:55.425 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:45:55.425 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:47:55.445 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:49:55.420 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:51:55.447 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:53:55.422 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:55:55.419 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:57:55.421 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 23:59:55.445 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 00:01:55.428 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 00:03:54.530 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 00:05:54.474 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 00:07:54.478 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb
+[I 00:09:54.474 NotebookApp] Saving file at /Notebook/04_Similarity_3_12_standard_a1.0.ipynb

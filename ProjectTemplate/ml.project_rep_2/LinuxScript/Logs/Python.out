@@ -1,0 +1,129 @@
+2019-07-05 18:02:34.374781: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-07-05 18:02:34.404471: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:897] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-07-05 18:02:34.404917: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: GeForce GTX 960M major: 5 minor: 0 memoryClockRate(GHz): 1.176
+pciBusID: 0000:02:00.0
+totalMemory: 3.95GiB freeMemory: 3.58GiB
+2019-07-05 18:02:34.405013: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2019-07-05 18:02:35.033751: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-05 18:02:35.033885: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2019-07-05 18:02:35.033960: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2019-07-05 18:02:35.034194: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/device:GPU:0 with 3304 MB memory) -> physical GPU (device: 0, name: GeForce GTX 960M, pci bus id: 0000:02:00.0, compute capability: 5.0)
+2019-07-05 18:02:35.086618: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2019-07-05 18:02:35.086764: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-05 18:02:35.086870: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2019-07-05 18:02:35.086984: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2019-07-05 18:02:35.087204: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3304 MB memory) -> physical GPU (device: 0, name: GeForce GTX 960M, pci bus id: 0000:02:00.0, compute capability: 5.0)
+using GPU
+Found 5749 people
+Randomly selected 202049 positive samples
+Randomly selecting 202049 out of 500000 negative pairs
+Randomly selecting 1 images per negative pair
+Randomly selected 202049 negative samples from 202049 pairs
+split:  181844
+train size: 363688
+test size: 40408
+Epochs       : 113 
+Training     : 
+ - Patch size: 32 
+ - Step      : 100 
+Validation   : 
+ - Patch size: 32 
+ - Step      : 20 
+lr_schedule  : [(0, 0.001), (56, 0.0001), (84, 1e-05)]
+Siamese_V3.00_cv_16_32_64_128_fc_256_128_
+Siamese_V3.01_cv_16_32_64_128_fc_512_256_
+Siamese_V3.02_cv_16_32_64_128_fc_1024_512_
+Siamese_V3.03_cv_16_32_64_128_fc_128_128_
+Siamese_V3.04_cv_16_32_64_128_fc_256_256_
+Siamese_V3.05_cv_16_32_64_128_fc_512_512_
+Siamese_V3.06_cv_16_32_64_128_fc_256_256_128_
+Siamese_V3.07_cv_16_32_64_128_fc_512_512_256_
+Siamese_V3.08_cv_16_32_64_128_fc_1024_1024_512_
+Siamese_V3.09_cv_16_32_64_128_fc_128_
+Siamese_V3.10_cv_16_32_64_128_fc_256_
+Siamese_V3.11_cv_16_32_64_128_fc_512_
+Siamese_V3.12_cv_16_32_64_128_256_fc_256_128_
+Siamese_V3.13_cv_16_32_64_128_256_fc_512_256_
+Siamese_V3.14_cv_16_32_64_128_256_fc_1024_512_
+Siamese_V3.15_cv_16_32_64_128_256_fc_128_128_
+Siamese_V3.16_cv_16_32_64_128_256_fc_256_256_
+Siamese_V3.17_cv_16_32_64_128_256_fc_512_512_
+Siamese_V3.18_cv_16_32_64_128_256_fc_256_256_128_
+Siamese_V3.19_cv_16_32_64_128_256_fc_512_512_256_
+Siamese_V3.20_cv_16_32_64_128_256_fc_1024_1024_512_
+Siamese_V3.21_cv_16_32_64_128_256_fc_128_
+Siamese_V3.22_cv_16_32_64_128_256_fc_256_
+Siamese_V3.23_cv_16_32_64_128_256_fc_512_
+Siamese_V3.24_cv_32_64_128_256_fc_256_128_
+Siamese_V3.25_cv_32_64_128_256_fc_512_256_
+Siamese_V3.26_cv_32_64_128_256_fc_1024_512_
+Siamese_V3.27_cv_32_64_128_256_fc_128_128_
+Siamese_V3.28_cv_32_64_128_256_fc_256_256_
+Siamese_V3.29_cv_32_64_128_256_fc_512_512_
+Siamese_V3.30_cv_32_64_128_256_fc_256_256_128_
+Siamese_V3.31_cv_32_64_128_256_fc_512_512_256_
+Siamese_V3.32_cv_32_64_128_256_fc_1024_1024_512_
+Siamese_V3.33_cv_32_64_128_256_fc_128_
+Siamese_V3.34_cv_32_64_128_256_fc_256_
+Siamese_V3.35_cv_32_64_128_256_fc_512_
+Siamese_V3.36_cv_32_64_128_256_512_fc_256_128_
+Siamese_V3.37_cv_32_64_128_256_512_fc_512_256_
+Siamese_V3.38_cv_32_64_128_256_512_fc_1024_512_
+Siamese_V3.39_cv_32_64_128_256_512_fc_128_128_
+Siamese_V3.40_cv_32_64_128_256_512_fc_256_256_
+Siamese_V3.41_cv_32_64_128_256_512_fc_512_512_
+Siamese_V3.42_cv_32_64_128_256_512_fc_256_256_128_
+Siamese_V3.43_cv_32_64_128_256_512_fc_512_512_256_
+Siamese_V3.44_cv_32_64_128_256_512_fc_1024_1024_512_
+Siamese_V3.45_cv_32_64_128_256_512_fc_128_
+Siamese_V3.46_cv_32_64_128_256_512_fc_256_
+Siamese_V3.47_cv_32_64_128_256_512_fc_512_
+Siamese_V3.48_cv_64_128_256_512_fc_256_128_
+Siamese_V3.49_cv_64_128_256_512_fc_512_256_
+Siamese_V3.50_cv_64_128_256_512_fc_1024_512_
+Siamese_V3.51_cv_64_128_256_512_fc_128_128_
+Siamese_V3.52_cv_64_128_256_512_fc_256_256_
+Siamese_V3.53_cv_64_128_256_512_fc_512_512_
+Siamese_V3.54_cv_64_128_256_512_fc_256_256_128_
+Siamese_V3.55_cv_64_128_256_512_fc_512_512_256_
+Siamese_V3.56_cv_64_128_256_512_fc_1024_1024_512_
+Siamese_V3.57_cv_64_128_256_512_fc_128_
+Siamese_V3.58_cv_64_128_256_512_fc_256_
+Siamese_V3.59_cv_64_128_256_512_fc_512_
+Siamese_V3.60_cv_64_128_256_512_1024_fc_256_128_
+Siamese_V3.61_cv_64_128_256_512_1024_fc_512_256_
+Siamese_V3.62_cv_64_128_256_512_1024_fc_1024_512_
+Siamese_V3.63_cv_64_128_256_512_1024_fc_128_128_
+Siamese_V3.64_cv_64_128_256_512_1024_fc_256_256_
+Siamese_V3.65_cv_64_128_256_512_1024_fc_512_512_
+Siamese_V3.66_cv_64_128_256_512_1024_fc_256_256_128_
+Siamese_V3.67_cv_64_128_256_512_1024_fc_512_512_256_
+Siamese_V3.68_cv_64_128_256_512_1024_fc_1024_1024_512_
+Siamese_V3.69_cv_64_128_256_512_1024_fc_128_
+Siamese_V3.70_cv_64_128_256_512_1024_fc_256_
+Siamese_V3.71_cv_64_128_256_512_1024_fc_512_
+Siamese_V3.72_cv_64_128_256_512_512_fc_256_128_
+Siamese_V3.73_cv_64_128_256_512_512_fc_512_256_
+Siamese_V3.74_cv_64_128_256_512_512_fc_1024_512_
+Siamese_V3.75_cv_64_128_256_512_512_fc_128_128_
+Siamese_V3.76_cv_64_128_256_512_512_fc_256_256_
+Siamese_V3.77_cv_64_128_256_512_512_fc_512_512_
+Siamese_V3.78_cv_64_128_256_512_512_fc_256_256_128_
+Siamese_V3.79_cv_64_128_256_512_512_fc_512_512_256_
+Siamese_V3.80_cv_64_128_256_512_512_fc_1024_1024_512_
+Siamese_V3.81_cv_64_128_256_512_512_fc_128_
+Siamese_V3.82_cv_64_128_256_512_512_fc_256_
+Siamese_V3.83_cv_64_128_256_512_512_fc_512_
+Siamese_V3.84_cv_64_256_256_512_512_fc_256_128_
+Siamese_V3.85_cv_64_256_256_512_512_fc_512_256_
+Siamese_V3.86_cv_64_256_256_512_512_fc_1024_512_
+Siamese_V3.87_cv_64_256_256_512_512_fc_128_128_
+Siamese_V3.88_cv_64_256_256_512_512_fc_256_256_
+Siamese_V3.89_cv_64_256_256_512_512_fc_512_512_
+Siamese_V3.90_cv_64_256_256_512_512_fc_256_256_128_
+Siamese_V3.91_cv_64_256_256_512_512_fc_512_512_256_
+Siamese_V3.92_cv_64_256_256_512_512_fc_1024_1024_512_
+Siamese_V3.93_cv_64_256_256_512_512_fc_128_
+Siamese_V3.94_cv_64_256_256_512_512_fc_256_
+Siamese_V3.95_cv_64_256_256_512_512_fc_512_
