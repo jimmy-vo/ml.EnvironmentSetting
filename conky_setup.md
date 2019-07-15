@@ -1,19 +1,29 @@
-**Setting up Conky on Ubuntu** 
+# **Setting up Conky on Ubuntu** 
 
-**Goad**
+## **Goad**
+
 Setup a monitor tool to keep track CPU, RAM, SWAP, GPU (Nvidia) temperatures and usage during the training
 
-**Installation:**
+![alt text](/docs/Conky.png "Conky")
 
+## **Installation:**
+
+```
     apt install conky-all
 
+```
 
 
-**Configuration:**
-Edit the configuration file below
+## **Configuration:**
 
-    gedit /etc/conky/conky.conf
-Replace the content with the script below
+* Edit the configuration file below
+
+
+```
+    gedit /etc/conky/conky.conf 
+```  
+
+* Replace the content with the script below
 
 ```
 alignment top_right
