@@ -7,3 +7,10 @@ pip3 install opencv-python
 pip3 install seaborn
 pip3 install -U scikit-learn scipy matplotlib
 ```
+
+## Using conda
+
+```
+conda install jupyter
+conda install h5py
+```
