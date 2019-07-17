@@ -12,7 +12,7 @@ pip3 install -U scikit-learn scipy matplotlib
 Create conda environment:
 Support minimum tensorflow lite interfaces
 ```
-conda create --name ml jupyter tensorflow-gpu==1.13.1 python==3.6.2 h5py scikit-learn scipy matplotlib seaborn opencv
+conda create --name ml jupyter tensorflow-gpu==1.13.1 python==3.6.8 h5py scikit-learn scipy matplotlib seaborn opencv
 ```
 Install additional 
 ```
