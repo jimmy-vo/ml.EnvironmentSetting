@@ -1,11 +1,9 @@
 # Common python packages for ML/DS/CV
 ## Using pip - for HPC or docker
 ```
-apt-get install -y libsm6 libxext6 libxrender-dev
+apt-get install -y libsm6 libxext6 libxrender-dev sudo
 pip3 install jupyter
-pip3 install opencv-python 
-pip3 install seaborn
-pip3 install -U scikit-learn scipy matplotlib
+pip3 install -U scikit-learn scipy matplotlib opencv-python seaborn
 ```
 
 ## Using conda
