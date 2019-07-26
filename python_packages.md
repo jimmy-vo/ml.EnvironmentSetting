@@ -14,5 +14,4 @@ conda create --name ml jupyter tensorflow-gpu==1.13.1 python==3.6.8 h5py scikit-
 ```
 Install additional 
 ```
-conda install -c menpo opencv=2.4.11
 ```
