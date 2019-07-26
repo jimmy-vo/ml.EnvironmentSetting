@@ -14,4 +14,5 @@ conda create --name ml jupyter tensorflow-gpu==1.14.0 python==3.6.8 h5py scikit-
 ```
 Install additional 
 ```
+conda install -c conda-forge opencv=4.1.0
 ```
