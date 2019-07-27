@@ -22,7 +22,6 @@ Go to the end of the file .bashrc and add the following line:
 export PATH="/home/pi/miniconda3/bin:$PATH"
 ```
 
-```
 ## Install python
 ```
 sudo apt-get install python3-dev libffi-dev libssl-dev -y
