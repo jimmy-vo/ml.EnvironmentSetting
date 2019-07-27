@@ -1,10 +1,27 @@
 # Install Linux packages for ML on Embedded system
 ## Install anaconda
+
 ```
 wget http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-armv7l.sh
-md5sum Miniconda3-latest-Linux-armv7l.sh
-bash Miniconda3-latest-Linux-armv7l.sh
-source ~/.bashrc
+sudo md5sum Miniconda3-latest-Linux-armv7l.sh
+sudo /bin/bash Miniconda3-latest-Linux-armv7l.sh
+```
+
+Accept the license agreement with `yes`
+
+When asked, change the install location: `/home/pi/miniconda3`
+
+Do you wish the installer to prepend the Miniconda3 install location to PATH in your /root/.bashrc ? `yes`
+
+Now add the install path to the PATH variable:
+```
+sudo nano /home/pi/.bashrc
+```
+Go to the end of the file .bashrc and add the following line:
+```
+export PATH="/home/pi/miniconda3/bin:$PATH"
+```
+
 ```
 ## Install python
 ```
