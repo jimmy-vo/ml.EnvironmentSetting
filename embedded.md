@@ -1,4 +1,4 @@
-# Install Linux packages for ML on Embedded system
+# Setup Linux environment for ML on Embedded system
 
 Follow this link to install edgetpu
 https://blog.hackster.io/benchmarking-machine-learning-on-the-new-raspberry-pi-4-model-b-88db9304ce4
