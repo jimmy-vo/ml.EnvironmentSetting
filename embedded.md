@@ -1,8 +1,8 @@
 # Setup Linux environment for ML on Embedded system
 
 ## Install tensorflow 1.14.0 with python 3.7
-Download this folder and place it in `~/home` directory:
-then: 
+Download this [folder](https://github.com/jimmyvo2410/ml.EnvironmentSetting/tree/master/Tensorflow-bin-master) and place it in `~/home` directory:
+Then: 
 ```
 cd ~/Tensorflow-bin-master/
 sudo apt-get install -y libhdf5-dev libc-ares-dev libeigen3-dev
