@@ -5,7 +5,7 @@ Download this [folder](https://github.com/jimmyvo2410/ml.EnvironmentSetting/tree
 Then: 
 ```
 cd ~/Tensorflow-bin-master/
-sudo apt-get install -y libhdf5-dev libc-ares-dev libeigen3-dev
+sudo apt-get install -y python3-pip libhdf5-dev libc-ares-dev libeigen3-dev
 sudo pip3 install keras_applications==1.0.7 --no-deps
 sudo pip3 install keras_preprocessing==1.0.9 --no-deps
 sudo pip3 install h5py==2.9.0
@@ -14,6 +14,7 @@ sudo apt-get install -y libatlas-base-dev
 pip3 install -U --user six wheel mock
 sudo pip3 uninstall tensorflow
 sudo pip3 install tensorflow-1.14.0-cp37-cp37m-linux_armv7l.whl
+ 
 ```
 
 Follow this link to install edgetpu
