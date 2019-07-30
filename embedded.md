@@ -95,9 +95,19 @@ cd /usr/lib/python3/dist-packages/
 sudo ln -s /usr/local/python/cv2/python-3.7/cv2.cpython-37m-arm-linux-gnueabihf.so cv2.so
 ```
 
+## Install EdgeTPU package
+This is prepared based on [this tutorial](https://blog.hackster.io/benchmarking-machine-learning-on-the-new-raspberry-pi-4-model-b-88db9304ce4)
+Download the prepared files from [here](#), place it in `~/` directory.
+Then:
+```
+cd ~/python-tflite-source/
 
-Follow this link to install edgetpu
-https://blog.hackster.io/benchmarking-machine-learning-on-the-new-raspberry-pi-4-model-b-88db9304ce4
+```
+And then: recommend to choose N when being ask for maximum operating frequency
+```
+sudo ./install.sh
+```
+
 
 ## test edgetpu
 ```
