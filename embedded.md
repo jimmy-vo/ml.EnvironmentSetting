@@ -108,6 +108,10 @@ And then: recommend to choose N when being ask for maximum operating frequency
 sudo ./install.sh
 ```
 
+## Install PIL
+```
+sudo pip3 install image
+```
 
 ## test edgetpu
 ```
