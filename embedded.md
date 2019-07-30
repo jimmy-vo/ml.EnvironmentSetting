@@ -97,7 +97,7 @@ sudo ln -s /usr/local/python/cv2/python-3.7/cv2.cpython-37m-arm-linux-gnueabihf.
 
 ## Install EdgeTPU package
 This is prepared based on [this tutorial](https://blog.hackster.io/benchmarking-machine-learning-on-the-new-raspberry-pi-4-model-b-88db9304ce4)
-Download the prepared files from [here](#), place it in `~/` directory.
+Download the prepared files from [here](https://github.com/jimmyvo2410/ml.EnvironmentSetting/tree/master/python-tflite-source), place it in `~/` directory.
 Then:
 ```
 cd ~/python-tflite-source/
