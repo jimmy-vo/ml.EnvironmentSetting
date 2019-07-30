@@ -89,6 +89,12 @@ Restart Swap:
 sudo /etc/init.d/dphys-swapfile stop
 sudo /etc/init.d/dphys-swapfile start
 ```
+Create link to opencv
+```
+cd /usr/lib/python3/dist-packages/
+sudo ln -s /usr/local/python/cv2/python-3.7/cv2.cpython-37m-arm-linux-gnueabihf.so cv2.so
+```
+
 
 Follow this link to install edgetpu
 https://blog.hackster.io/benchmarking-machine-learning-on-the-new-raspberry-pi-4-model-b-88db9304ce4
