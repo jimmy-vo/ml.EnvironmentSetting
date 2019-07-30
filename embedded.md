@@ -111,7 +111,7 @@ sudo ./install.sh
 ## Install other packages
 ```
 sudo pip3 install image
-sudo apt-get install python3-picamera
+sudo apt-get install python3-picamera -y
 sudo apt-get install --no-install-recommends xserver-xorg -y
 sudo apt-get install --no-install-recommends raspberrypi-ui-mods lxterminal gvfs -y
 ```
