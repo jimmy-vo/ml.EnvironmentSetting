@@ -108,17 +108,11 @@ And then: recommend to choose N when being ask for maximum operating frequency
 sudo ./install.sh
 ```
 
-## Install PIL
+## Install other packages
 ```
 sudo pip3 install image
-```
-
-## Install Raspi camera
-```
 sudo apt-get install python3-picamera
+sudo apt-get install --no-install-recommends xserver-xorg -y
+sudo apt-get install --no-install-recommends raspberrypi-ui-mods lxterminal gvfs -y
 ```
 
-## test edgetpu
-```
-python3 python-tflite-source/edgetpu/demo/classify_image.py --model mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.tflite  --label inat_bird_labels.txt --image parrot.jpg
-```
