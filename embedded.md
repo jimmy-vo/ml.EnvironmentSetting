@@ -113,6 +113,11 @@ sudo ./install.sh
 sudo pip3 install image
 ```
 
+## Install Raspi camera
+```
+sudo apt-get install python3-picamera
+```
+
 ## test edgetpu
 ```
 python3 python-tflite-source/edgetpu/demo/classify_image.py --model mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.tflite  --label inat_bird_labels.txt --image parrot.jpg
