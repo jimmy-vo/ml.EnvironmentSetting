@@ -16,3 +16,7 @@ Install additional
 ```
 conda install -c conda-forge opencv=4.1.0
 ```
+
+```
+~/.conda/envs/ml/bin/pip install paho-mqtt
+```
