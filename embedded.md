@@ -4,6 +4,7 @@
 
 Execute below one by one:
 ```
+sudo apt-get -y install python3-pip
 sudo apt-get install -y python3-pip libhdf5-dev libc-ares-dev libeigen3-dev
 sudo pip3 install keras_applications==1.0.7 --no-deps
 sudo pip3 install keras_preprocessing==1.0.9 --no-deps
