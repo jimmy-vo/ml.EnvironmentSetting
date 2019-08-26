@@ -128,4 +128,7 @@ sudo apt-get install python3-picamera -y
 sudo apt-get install --no-install-recommends xserver-xorg -y
 sudo apt-get install --no-install-recommends raspberrypi-ui-mods lxterminal gvfs -y
 ```
-
+for remote debugging with Pycharm
+```
+sudo apt-get update && sudo apt-get install -y postgresql libpq-dev python-dev
+```
