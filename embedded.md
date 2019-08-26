@@ -42,9 +42,9 @@ Cmake
 ```
 mkdir Download
 cd Download
-wget https://cmake.org/files/v3.4/cmake-3.4.1.tar.gz
-tar -xvzf cmake-3.4.1.tar.gz
-cd cmake-3.4.1/
+wget https://cmake.org/files/v3.15/cmake-3.15.0.tar.gz
+tar -xvzf cmake-3.15.0.tar.gz
+cd cmake-3.15.0/
 sudo ./bootstrap
 sudo make
 sudo make install
