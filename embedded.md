@@ -140,6 +140,19 @@ pip3 install SpeechRecognition
 pip3 install paho-mqtt
 sudo apt-get install python-pyaudio python3-pyaudio
 pip3 install ttspico
+pip3 install spidev gpiozero
+sudo apt install -y mosquitto mosquitto-clients
 
 
+```
+## Respeaker
+```
+sudo apt-get update
+sudo apt-get upgrade
+git clone https://github.com/respeaker/seeed-voicecard.git
+cd seeed-voicecard
+sudo ./install.sh
+
+git clone https://github.com/respeaker/4mics_hat.git
+cd /home/pi/4mics_hat
 ```
