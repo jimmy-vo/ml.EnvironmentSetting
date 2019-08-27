@@ -1,9 +1,19 @@
 # Setup Linux environment for ML on Embedded system
 
+
+## Update
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo rpi-update
+```
 ## Install tensorflow 1.13.1 with python 3.7
 
 Execute below one by one:
 ```
+mkdir Download
+cd Download
+
 sudo apt-get -y install python3-pip
 sudo apt-get install -y python3-pip libhdf5-dev libc-ares-dev libeigen3-dev
 sudo pip3 install keras_applications==1.0.7 --no-deps
@@ -19,6 +29,8 @@ sudo pip3 install tensorflow*.whl
 
 ## Install Open CV
 https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/
+sudo apt-get install -y build-essential cmake unzip pkg-config
+
 ```
 sudo apt-get purge wolfram-engine
 sudo apt-get purge libreoffice*
@@ -26,22 +38,14 @@ sudo apt-get clean
 sudo apt-get autoremove -y
 
 sudo apt-get update -y && sudo apt-get upgrade  -y
-
-sudo apt-get install -y build-essential cmake unzip pkg-config
-
-sudo apt-get install -y libjpeg-dev libpng-dev libtiff-dev
-sudo apt-get install -y libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
-sudo apt-get install -y libxvidcore-dev libx264-dev
-
-sudo apt-get install -y libgtk-3-dev
-sudo apt-get install -y libcanberra-gtk*
-
-sudo apt-get install -y libatlas-base-dev gfortran
+sudo apt-get install -y libjpeg-dev libpng-dev libtiff-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libgtk-3-dev libcanberra-gtk* libatlas-base-dev gfortran
 ```
-Cmake
+## Cmake
+note: better to install 3.13.4 or you will need to solve later problem with this https://zhuanlan.zhihu.com/p/38738976
 ```
-mkdir Download
 cd Download
+sudo apt-get install -y  libcurl4-gnutls-dev zlib1g-dev
+
 wget https://cmake.org/files/v3.15/cmake-3.15.0.tar.gz
 tar -xvzf cmake-3.15.0.tar.gz
 cd cmake-3.15.0/
@@ -50,18 +54,18 @@ sudo make
 sudo make install
 ```
 
-Download opencv
+## Download opencv
 ```
-cd ~
+cd ~/Download
 wget -O opencv.zip https://github.com/opencv/opencv/archive/4.0.0.zip
 wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/4.0.0.zip
 unzip opencv.zip
 unzip opencv_contrib.zip
-mv opencv-4.0.0 opencv
-mv opencv_contrib-4.0.0 opencv_contrib
+mv opencv-4.0.0 ~/opencv
+mv opencv_contrib-4.0.0 ~/opencv_contrib
 
 ```
-Build opencv
+## Build opencv
 ```
 cd ~/opencv
 mkdir build
@@ -74,9 +78,9 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D BUILD_TESTS=OFF \
     -D OPENCV_ENABLE_NONFREE=ON \
     -D INSTALL_PYTHON_EXAMPLES=OFF \
-    -D BUILD_EXAMPLES=OFF ..
-```
-Set `CONF_SWAPSIZE=2048` in:
+    -D BUILD_EXAMPLES=OFF .. 
+``` 
+Set `CONF_SWAPSIZE=2048` in:       
 ```
 sudo nano /etc/dphys-swapfile
 
@@ -86,8 +90,8 @@ Restart Swap:
 sudo /etc/init.d/dphys-swapfile stop
 sudo /etc/init.d/dphys-swapfile start
 ```
- Compile Opencv:
- ```
+Compile Opencv:
+```
 make -j4
 sudo make install
 sudo ldconfig
