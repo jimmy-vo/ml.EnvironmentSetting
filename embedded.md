@@ -6,6 +6,8 @@
 sudo apt-get update
 sudo apt-get upgrade
 sudo rpi-update
+sudo apt-get install git
+
 ```
 ## Install tensorflow 1.13.1 with python 3.7
 
@@ -132,7 +134,12 @@ sudo apt-get install python3-picamera -y
 sudo apt-get install --no-install-recommends xserver-xorg -y
 sudo apt-get install --no-install-recommends raspberrypi-ui-mods lxterminal gvfs -y
 ```
-for remote debugging with Pycharm
+
 ```
-sudo apt-get update && sudo apt-get install -y postgresql libpq-dev python-dev
+pip3 install SpeechRecognition
+pip3 install paho-mqtt
+sudo apt-get install python-pyaudio python3-pyaudio
+pip3 install ttspico
+
+
 ```
