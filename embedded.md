@@ -149,6 +149,7 @@ sudo apt install -y mosquitto mosquitto-clients
 ```
 sudo apt-get update
 sudo apt-get upgrade
+sudo apt-get install flac
 git clone https://github.com/respeaker/seeed-voicecard.git
 cd seeed-voicecard
 sudo ./install.sh
