@@ -157,3 +157,15 @@ sudo ./install.sh
 git clone https://github.com/respeaker/4mics_hat.git
 cd /home/pi/4mics_hat
 ```
+## Backup sdcard
+Check to make sure sdcard is mounted on /dev/sdb
+To backup
+```
+sudo dd if=/dev/sdb of=~/SDCardBackup.img
+```
+To restore
+```
+sudo umount /dev/sdb1
+sudo umount /dev/sdb2
+sudo dd bs=4M if=~/SDCardBackup.img of=/dev/sdb
+```
