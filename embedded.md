@@ -163,9 +163,10 @@ To backup
 ```
 sudo dd if=/dev/sdb of=~/SDCardBackup.img
 ```
-To restore
+## Restore sdcard
 ```
 sudo umount /dev/sdb1
 sudo umount /dev/sdb2
-sudo dd bs=4M if=~/SDCardBackup.img of=/dev/sdb
+sudo dd bs=4M of=/dev/sdb if=~/SDCardBackup.img 
+sudo sync
 ```
